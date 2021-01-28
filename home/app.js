@@ -9,5 +9,5 @@ form.addEventListener('submit', (e) => {
     console.log(formData);
     setUser(formData);
 
-    // window.location = '../map';
+    window.location = '../map';
 });
