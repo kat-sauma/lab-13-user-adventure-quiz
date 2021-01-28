@@ -18,7 +18,9 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-family: 'Cutive Mono', monospace;
     background-color: var(--color2);
 }
 
