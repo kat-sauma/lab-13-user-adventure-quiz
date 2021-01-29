@@ -10,3 +10,10 @@ export function setUser(formData) {
     const stringyNewUser = JSON.stringify(newUser);
     localStorage.setItem('USER', stringyNewUser);
 }
+
+export function findById(id, array) {
+    for (let item of array) {
+        if (item.id === id)
+            return item;
+    }
+}

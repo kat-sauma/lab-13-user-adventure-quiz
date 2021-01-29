@@ -10,7 +10,7 @@ const tidalWaves = {
         Before you can break through the surf, pick a disguise from the water's edge. You'll need it for what lies ahead on your journey!
     `,
     choices: [{
-        choice_id: 'seaweed',
+        id: 'seaweed',
         image: '',
         description: 'Seaweed Wig',
         result: `
@@ -19,7 +19,7 @@ const tidalWaves = {
         oxygen: 70,
         bioluminescence: 25
     }, {
-        choice_id: 'clam shells',
+        id: 'clam shells',
         image: '',
         description: 'A Mermaid Clam Shell Bra',
         result: `
@@ -28,7 +28,7 @@ const tidalWaves = {
         oxygen: 35,
         bioluminescence: 50
     }, {
-        choice_id: 'fish carcass',
+        id: 'fish carcass',
         image: '',
         description: 'Skeleton of a Fish',
         result: `
@@ -50,7 +50,7 @@ const theDropOff = {
         Surprise SHARK Encounter! Quick pick an accomplice to fend off the big bad bully of the ocean if you want to make it all the way to the bottom of the ocean where bioluminescence is abundant.
     `,
     choices: [{
-        choice_id: 'stingrays',
+        id: 'stingrays',
         image: '',
         description: 'Sting Ray Samurais',
         result: `
@@ -59,7 +59,7 @@ const theDropOff = {
         oxygen: 45,
         bioluminescence: 45
     }, {
-        choice_id: 'jellyfish',
+        id: 'jellyfish',
         image: '',
         description: 'Jellyfish Towers of Terror',
         result: `
@@ -68,7 +68,7 @@ const theDropOff = {
         oxygen: -75,
         bioluminescence: -50
     }, {
-        choice_id: 'dolphins',
+        id: 'dolphins',
         image: '',
         description: 'Dolphin Daydream',
         result: `
@@ -90,7 +90,7 @@ const theTrenches = {
         There is only time for one deep dive, so choose wisely. Remember, the goal is to collect the most bioluminescent sparkles you can find!
     `,
     choices: [{
-        choice_id: 'ship',
+        id: 'ship',
         image: '',
         description: 'Abandoned Ship',
         result: `
@@ -99,7 +99,7 @@ const theTrenches = {
         oxygen: -100,
         bioluminescence: -100
     }, {
-        choice_id: 'trench',
+        id: 'trench',
         image: '',
         description: 'The Marianis Trench',
         result: `
@@ -108,7 +108,7 @@ const theTrenches = {
         oxygen: 50,
         bioluminescence: 1000
     }, {
-        choice_id: 'unknown',
+        id: 'unknown',
         image: '',
         description: 'The Great Unknown',
         result: `
