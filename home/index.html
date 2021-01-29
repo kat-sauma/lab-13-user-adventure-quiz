@@ -26,10 +26,28 @@
                 Create Secret Agent:
             </h2>
             <form>
-                <input type="text"></input><br>
-                <input type="text"></input><br>
-                <input type="text"></input><br>
-                <input type="submit">
+                <label class="new-user">
+                    <input type="text" id="user-name" name="name" placeholder="First Name"></input>
+                </label>
+                <hr>
+                <label class="new-agent">
+                    <input type="radio" id="aquarius" name="character" value="Aquarius">Aquarius</input>
+                </label>
+                <label class="new-agent">
+                    <input type="radio" id="aquarius" name="character" value="Pisces">Pisces</input>
+                </label>
+                <label class="new-agent">
+                    <input type="radio" id="aquarius" name="character" value="Cancer">Cancer</input>
+                </label>
+                <hr>
+                <label class="new-transport">
+                    <input type="radio" id="flippers" name="transport" value="flippers">Flippers</input>
+                </label>
+                <label class="new-transport">
+                    <input type="radio" id="floaties" name="transport" value="floaties">Floaties</input>
+                </label>
+                <hr>
+                <input type="submit" id="submit" />
             </form>
         </section>
     </main>

@@ -6,3 +6,5 @@ function scoreOxygen(oxygen) {
         return 'thriving';
     }
 }
+
+export default scoreOxygen;

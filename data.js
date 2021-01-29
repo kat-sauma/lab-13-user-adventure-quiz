@@ -101,7 +101,7 @@ const theTrenches = {
     }, {
         id: 'trench',
         image: '',
-        description: 'The Marianis Trench',
+        description: 'The Mariana Trench',
         result: `
             Deep, deep inside is every queen's sparkle. You have ventured to the dark edge & will reap the benefits. 1000 bioluminescent sparkles and a bubble with 50 oxygen levels to get you home!
         `,
