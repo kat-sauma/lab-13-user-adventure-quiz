@@ -39,7 +39,7 @@ const tidalWaves = {
     }]
 };
 const theDropOff = {
-    id: 'drop off',
+    id: 'dropoff',
     title: 'The Drop Off: Choose Your Accomplice',
     map: {
         top: '66%',
