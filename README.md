@@ -5,8 +5,9 @@ Meta Data
 
 ENTER PAGE HTML
 - Video or Image
-- Button 
+- Button or link
     redirects to home page
+    CSS: take away underline/give hover color change or glow
 
 
 HOME PAGE HTML
