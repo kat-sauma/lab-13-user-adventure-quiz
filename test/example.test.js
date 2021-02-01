@@ -17,6 +17,7 @@ test('the FormData should save user input to local storage', (expect) => {
     const expected = {
         name: 'kat',
         character: 'aquarius',
+        transport: null,
         oxygen: 100,
         bioluminescence: 0,
         completed: {},
